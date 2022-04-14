@@ -28,7 +28,7 @@ function show_season($month, $country) {
       default:
         break;
     }
-  } elseif($country == "ph") {
+  } elseif ($country == "ph") {
     switch ($month) {
       case 1:
       case 2:
