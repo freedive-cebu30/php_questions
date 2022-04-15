@@ -10,7 +10,7 @@ print($res);
 echo PHP_EOL;
 
 
-# eachを使った方法
+# foreachを使った方法
 # the way of foreach
 $max = 0;
 foreach ($arr as $val) {
