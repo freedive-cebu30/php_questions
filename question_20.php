@@ -12,6 +12,7 @@ $arr = array(1, 2, 3, 4, 5);
 $arr2 = array_map('double', $arr);
 print_r($arr2);
 
+
 # アロー関数を使って書くこともできます。
 # You can write a code by Arrow Functions.
 print_r(array_map(fn($value) => $value * 2, $arr));
