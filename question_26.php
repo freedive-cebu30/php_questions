@@ -3,14 +3,14 @@
 
 # array_mapを使った方法
 # the way of array_map
+$arr = ["Taiwan-tokyo", "Taiwan-osaka", "Taiwan-kyoto"];
+$arr2 = array_map('replace_to_tokyo', $arr);
+print_r($arr2);
+
 function replace_to_tokyo($v)
 {
    return str_replace('Taiwan', 'Japan', $v);
 }
-
-$arr = ["Taiwan-tokyo", "Taiwan-osaka", "Taiwan-kyoto"];
-$arr2 = array_map('replace_to_tokyo', $arr);
-print_r($arr2);
 
 
 # アロー関数を使って書くこともできます。
