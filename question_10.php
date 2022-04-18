@@ -1,8 +1,8 @@
 <?php
 
 
-# どちらのメソッドでも大丈夫です
-# Either method is fine
+# どちらの関数でも大丈夫です
+# Either function is fine
 
 function cal_cast($number) {
   $s_number = (string)$number;
